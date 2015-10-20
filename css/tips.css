@@ -1,0 +1,82 @@
+/* Sections */
+
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/*Solve*/
+
+.solve {
+background: #65c5dc; /* Old browsers */
+background: -moz-linear-gradient(left,  #65c5dc 0%, #59d9d2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#65c5dc), color-stop(100%,#59d9d2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #65c5dc 0%,#59d9d2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #65c5dc 0%,#59d9d2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #65c5dc 0%,#59d9d2 100%); /* IE10+ */
+background: linear-gradient(to right,  #65c5dc 0%,#59d9d2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65c5dc', endColorstr='#59d9d2',GradientType=1 ); /* IE6-9 */
+
+}
+
+.solve h2 {
+    font-size: 4rem; line-height: 1.2; letter-spacing: 0;
+    margin-top: 2rem;
+    text-align: left;  
+    color: #ffffff;
+}
+
+/*UX header/logo*/
+
+.ux-head {
+  padding: 4rem 0 7rem;
+}
+
+.logo {
+  background-image: url(../images/UXtips_logo.png);
+  width: 120px;
+  height: 120px;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.catchphrase h1 { 
+    font-size: 3rem; line-height: 1.2;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+/*Navbar*/
+
+.navbar {
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+    background-color: #f3f3f3;
+}
+.navbar ul {
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    padding: 0px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.navbar li{
+    padding: 2px;
+    width: 200px;
+    display:inline-block;
+    margin: 0
+}
+
+.navbar a {
+  color: #4a9aad;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: #043D4A;
+}
